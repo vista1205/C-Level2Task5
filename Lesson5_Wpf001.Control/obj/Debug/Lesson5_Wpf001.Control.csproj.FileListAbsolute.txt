@@ -1,0 +1,12 @@
+C:\Users\Family\Desktop\Учёба\GeekBrains\Основы языка C# 2 уровень\Задания\C-Level2Task5\Lesson5_Wpf001.Control\bin\Debug\Lesson5_Wpf001.Control.dll
+C:\Users\Family\Desktop\Учёба\GeekBrains\Основы языка C# 2 уровень\Задания\C-Level2Task5\Lesson5_Wpf001.Control\bin\Debug\Lesson5_Wpf001.Control.pdb
+C:\Users\Family\Desktop\Учёба\GeekBrains\Основы языка C# 2 уровень\Задания\C-Level2Task5\Lesson5_Wpf001.Control\obj\Debug\GenderControl.g.cs
+C:\Users\Family\Desktop\Учёба\GeekBrains\Основы языка C# 2 уровень\Задания\C-Level2Task5\Lesson5_Wpf001.Control\obj\Debug\Lesson5_Wpf001.Control_MarkupCompile.cache
+C:\Users\Family\Desktop\Учёба\GeekBrains\Основы языка C# 2 уровень\Задания\C-Level2Task5\Lesson5_Wpf001.Control\obj\Debug\Lesson5_Wpf001.Control_MarkupCompile.lref
+C:\Users\Family\Desktop\Учёба\GeekBrains\Основы языка C# 2 уровень\Задания\C-Level2Task5\Lesson5_Wpf001.Control\obj\Debug\GenderControl.baml
+C:\Users\Family\Desktop\Учёба\GeekBrains\Основы языка C# 2 уровень\Задания\C-Level2Task5\Lesson5_Wpf001.Control\obj\Debug\Lesson5_Wpf001.Control.g.resources
+C:\Users\Family\Desktop\Учёба\GeekBrains\Основы языка C# 2 уровень\Задания\C-Level2Task5\Lesson5_Wpf001.Control\obj\Debug\Lesson5_Wpf001.Control.Properties.Resources.resources
+C:\Users\Family\Desktop\Учёба\GeekBrains\Основы языка C# 2 уровень\Задания\C-Level2Task5\Lesson5_Wpf001.Control\obj\Debug\Lesson5_Wpf001.Control.csproj.GenerateResource.cache
+C:\Users\Family\Desktop\Учёба\GeekBrains\Основы языка C# 2 уровень\Задания\C-Level2Task5\Lesson5_Wpf001.Control\obj\Debug\Lesson5_Wpf001.Control.csproj.CoreCompileInputs.cache
+C:\Users\Family\Desktop\Учёба\GeekBrains\Основы языка C# 2 уровень\Задания\C-Level2Task5\Lesson5_Wpf001.Control\obj\Debug\Lesson5_Wpf001.Control.dll
+C:\Users\Family\Desktop\Учёба\GeekBrains\Основы языка C# 2 уровень\Задания\C-Level2Task5\Lesson5_Wpf001.Control\obj\Debug\Lesson5_Wpf001.Control.pdb

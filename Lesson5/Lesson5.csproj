@@ -97,5 +97,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lesson5_Wpf001.Control\Lesson5_Wpf001.Control.csproj">
+      <Project>{2526a9b0-a123-4c26-92f1-9acea8ccf9b0}</Project>
+      <Name>Lesson5_Wpf001.Control</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
