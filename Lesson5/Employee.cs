@@ -11,13 +11,15 @@ namespace Lesson5
     {
         public string FIO { get; set; }
         public string Mail { get; set; }
+        public DateTime Birthday { get; set; }
         public Department Department { get; set; }
         public Gender Gender { get; set; }
 
-        public Employee(string fio, string mail, Department department, Gender gender)
+        public Employee(string fio, string mail, DateTime birthday, Department department, Gender gender)
         {
-            Mail = mail;
             FIO = fio;
+            Mail = mail;
+            Birthday = birthday;
             Department = department;
             Gender = gender;
         }
