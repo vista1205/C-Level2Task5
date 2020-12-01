@@ -1,0 +1,15 @@
+C:\Users\kozlovvo\source\repos\C#Level2Task5\Lesson5\obj\Debug\Lesson5.csprojAssemblyReference.cache
+C:\Users\kozlovvo\source\repos\C#Level2Task5\Lesson5\obj\Debug\MainWindow.g.cs
+C:\Users\kozlovvo\source\repos\C#Level2Task5\Lesson5\obj\Debug\App.g.cs
+C:\Users\kozlovvo\source\repos\C#Level2Task5\Lesson5\obj\Debug\Lesson5_MarkupCompile.cache
+C:\Users\kozlovvo\source\repos\C#Level2Task5\Lesson5\obj\Debug\Lesson5_MarkupCompile.lref
+C:\Users\kozlovvo\source\repos\C#Level2Task5\Lesson5\bin\Debug\Lesson5.exe.config
+C:\Users\kozlovvo\source\repos\C#Level2Task5\Lesson5\bin\Debug\Lesson5.exe
+C:\Users\kozlovvo\source\repos\C#Level2Task5\Lesson5\bin\Debug\Lesson5.pdb
+C:\Users\kozlovvo\source\repos\C#Level2Task5\Lesson5\obj\Debug\MainWindow.baml
+C:\Users\kozlovvo\source\repos\C#Level2Task5\Lesson5\obj\Debug\Lesson5.g.resources
+C:\Users\kozlovvo\source\repos\C#Level2Task5\Lesson5\obj\Debug\Lesson5.Properties.Resources.resources
+C:\Users\kozlovvo\source\repos\C#Level2Task5\Lesson5\obj\Debug\Lesson5.csproj.GenerateResource.cache
+C:\Users\kozlovvo\source\repos\C#Level2Task5\Lesson5\obj\Debug\Lesson5.csproj.CoreCompileInputs.cache
+C:\Users\kozlovvo\source\repos\C#Level2Task5\Lesson5\obj\Debug\Lesson5.exe
+C:\Users\kozlovvo\source\repos\C#Level2Task5\Lesson5\obj\Debug\Lesson5.pdb
