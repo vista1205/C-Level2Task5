@@ -85,5 +85,10 @@ namespace Lesson5
                 personlistView.ItemsSource = employees;
             }                
         }
+
+        private void Window_Closed(object sender, EventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
     }
 }

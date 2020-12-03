@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Lesson5"
         xmlns:Control="clr-namespace:Lesson5_Wpf001.Control;assembly=Lesson5_Wpf001.Control" x:Class="Lesson5.AddEmployeeForm"
         mc:Ignorable="d"
-        Title="AddEmployeeForm" Height="242.213" Width="437.295">
+        Title="Добавить Нового Сотрудника" Height="254.313" Width="447.796" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
         <Label Content="ФИО нового сотрудника:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="206"/>
         <Label Content="E-Mail нового сотрудника:" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top" Width="206"/>

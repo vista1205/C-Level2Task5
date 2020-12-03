@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Lesson5"
         xmlns:Control="clr-namespace:Lesson5_Wpf001.Control;assembly=Lesson5_Wpf001.Control" x:Class="Lesson5.MainWindow"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Сотрудники предприятия" Height="450" Width="800" Closed="Window_Closed" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
         <ListView x:Name="personlistView" 
                   HorizontalAlignment="Left" 
@@ -20,16 +20,16 @@
                 </GridView>
             </ListView.View>
         </ListView>
-        <TextBox x:Name="fioTextBox" HorizontalAlignment="Left" Height="23" Margin="482,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
-        <TextBox x:Name="mailTextBox" HorizontalAlignment="Left" Height="23" Margin="482,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:Name="fioTextBox" Height="23" Margin="482,10,110,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="mailTextBox" Height="23" Margin="482,38,110,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <Label x:Name="label" Content="ФИО:" HorizontalAlignment="Left" Margin="428,7,0,0" VerticalAlignment="Top" Width="54"/>
         <Label x:Name="label1" Content="E-Mail:" HorizontalAlignment="Left" Margin="428,35,0,0" VerticalAlignment="Top" Width="119"/>
-        <Control:GenderControl x:Name="userGenderControl" HorizontalAlignment="Left" Height="39" Margin="482,66,0,0" VerticalAlignment="Top" Width="200"/>
+        <Control:GenderControl x:Name="userGenderControl" Height="39" Margin="482,66,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="200"/>
         <Label x:Name="label2" Content="Пол:" HorizontalAlignment="Left" Margin="428,70,0,0" VerticalAlignment="Top"/>
         <DatePicker x:Name="dateBirthday" HorizontalAlignment="Left" Margin="582,105,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label3" Content="День рождения:" HorizontalAlignment="Left" Margin="428,104,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="saveButton" Content="Сохранить" HorizontalAlignment="Left" Margin="707,176,0,0" VerticalAlignment="Top" Width="75" Click="saveButton_Click"/>
-        <ComboBox x:Name="departmentComboBox" HorizontalAlignment="Left" Margin="428,135,0,0" VerticalAlignment="Top" Width="254"/>
-        <Button x:Name="addButton" Content="Добавить" HorizontalAlignment="Left" Margin="707,201,0,0" VerticalAlignment="Top" Width="75" Click="addButton_Click"/>
+        <Button x:Name="saveButton" Content="Сохранить" Margin="0,176,10,0" VerticalAlignment="Top" Click="saveButton_Click" HorizontalAlignment="Right" Width="75"/>
+        <ComboBox x:Name="departmentComboBox" Margin="428,135,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="254"/>
+        <Button x:Name="addButton" Content="Добавить" HorizontalAlignment="Right" Margin="0,201,10,0" VerticalAlignment="Top" Width="75" Click="addButton_Click"/>
     </Grid>
 </Window>
