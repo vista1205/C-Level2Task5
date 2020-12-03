@@ -76,7 +76,13 @@ namespace Lesson5
             AddEmployeeForm addEmployeeForm = new AddEmployeeForm();
             if (addEmployeeForm.ShowDialog() == true)
             {
-                employees.AddRange(new Employee(addEmployeeForm.addFIOTextBox.Text, addEmployeeForm.addMailTextBox.Text, (DateTime)addEmployeeForm.addBirthdayDatePicker.SelectedDate, addEmployeeForm.userGenderControls.Gender));
+                employees.Add(new Employee(addEmployeeForm.addFIOTextBox.Text, 
+                    addEmployeeForm.addMailTextBox.Text, 
+                    (DateTime)addEmployeeForm.addBirthdayDatePicker.SelectedDate, 
+                    (Department)addEmployeeForm.addDepartmentComboBox.SelectedItem, 
+                    addEmployeeForm.userGenderControls.Gender));
+                personlistView.ItemsSource = null;
+                personlistView.ItemsSource = employees;
             }                
         }
     }

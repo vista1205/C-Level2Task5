@@ -36,3 +36,5 @@ C:\Users\kozlovvo\source\repos\C#Level2Task5\Lesson5\bin\Debug\Lesson5_Wpf001.Co
 C:\Users\kozlovvo\source\repos\C#Level2Task5\Lesson5\obj\Debug\Lesson5.csproj.CopyComplete
 C:\Users\kozlovvo\source\repos\C#Level2Task5\Lesson5\obj\Debug\AddEmployeeForm.g.cs
 C:\Users\kozlovvo\source\repos\C#Level2Task5\Lesson5\obj\Debug\AddEmployeeForm.baml
+C:\Users\Family\Desktop\Учёба\GeekBrains\Основы языка C# 2 уровень\Задания\C-Level2Task5\Lesson5\obj\Debug\AddEmployeeForm.g.cs
+C:\Users\Family\Desktop\Учёба\GeekBrains\Основы языка C# 2 уровень\Задания\C-Level2Task5\Lesson5\obj\Debug\AddEmployeeForm.baml
