@@ -17,7 +17,7 @@
         <TextBox x:Name="addFIOTextBox"  HorizontalAlignment="Left" Height="23" Margin="221,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
         <TextBox x:Name="addMailTextBox"  HorizontalAlignment="Left" Height="23" Margin="221,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
 
-        <Control:GenderControl HorizontalAlignment="Left" Height="26" Margin="221,98,0,0" VerticalAlignment="Top" Width="200"/>
+        <Control:GenderControl x:Name="userGenderControls" HorizontalAlignment="Left" Height="26" Margin="221,98,0,0" VerticalAlignment="Top" Width="200"/>
         <DatePicker x:Name="addBirthdayDatePicker" HorizontalAlignment="Left" Margin="221,129,0,0" VerticalAlignment="Top" Width="200"/>
         <Button x:Name="yesButtonForm" IsDefault="True" Content="Добавить" HorizontalAlignment="Left" Margin="10,188,0,0" VerticalAlignment="Top" Width="75" Click="yesButtonForm_Click"/>
         <Button x:Name="noButtonForm" IsDefault="True" Content="Отмена" HorizontalAlignment="Left" Margin="344,188,0,0" VerticalAlignment="Top" Width="75" Click="noButtonForm_Click"/>
