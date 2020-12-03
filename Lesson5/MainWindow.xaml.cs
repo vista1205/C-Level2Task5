@@ -40,6 +40,7 @@ namespace Lesson5
                 new Employee("Чеченев Александр Иванович", "chechnev@alex.ru", new DateTime(1988,2,12), departmentsList[3], Lesson5_Wpf001.Control.Gender.Male)
             });
             personlistView.ItemsSource = employees;
+            departmentComboBox.ItemsSource = departmentsList;
         }
 
         private void personlistView_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -50,6 +51,23 @@ namespace Lesson5
                 mailTextBox.Text = (e.AddedItems[0] as Employee).Mail;
                 dateBirthday.SelectedDate = (e.AddedItems[0] as Employee).Birthday;
                 userGenderControl.Gender = (e.AddedItems[0] as Employee).Gender;
+                departmentComboBox.SelectedItem = (e.AddedItems[0] as Employee).Department;
+            }
+        }
+
+        private void saveButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (personlistView.SelectedItem != null)
+            {
+                var employe = (Employee)personlistView.SelectedItem;
+                employe.FIO = fioTextBox.Text;
+                employe.Mail = mailTextBox.Text;
+                employe.Birthday = (DateTime)dateBirthday.SelectedDate;
+                employe.Gender = userGenderControl.Gender;
+                employe.Department = (Department)departmentComboBox.SelectedItem;
+
+                personlistView.ItemsSource = null;
+                personlistView.ItemsSource = employees;
             }
         }
     }
