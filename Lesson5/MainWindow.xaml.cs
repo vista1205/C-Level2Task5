@@ -70,5 +70,14 @@ namespace Lesson5
                 personlistView.ItemsSource = employees;
             }
         }
+
+        private void addButton_Click(object sender, RoutedEventArgs e)
+        {
+            AddEmployeeForm addEmployeeForm = new AddEmployeeForm();
+            if (addEmployeeForm.ShowDialog() == true)
+            {
+
+            }                
+        }
     }
 }

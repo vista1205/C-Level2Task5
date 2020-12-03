@@ -18,10 +18,25 @@ namespace Lesson5
     /// Логика взаимодействия для AddEmployeeForm.xaml
     /// </summary>
     public partial class AddEmployeeForm : Window
-    {
+    {   
+        
         public AddEmployeeForm()
         {
             InitializeComponent();
+            MainWindow mainWindow = new MainWindow();
+            List<Department> newdep = new List<Department>();
+            newdep.AddRange(mainWindow.departmentsList);
+            addDepartmentComboBox.ItemsSource = newdep;
+        }
+        
+        private void yesButtonForm_Click(object sender, RoutedEventArgs e)
+        {
+            this.DialogResult = true;
+        }
+
+        private void noButtonForm_Click(object sender, RoutedEventArgs e)
+        {
+            this.DialogResult = false;
         }
     }
 }
