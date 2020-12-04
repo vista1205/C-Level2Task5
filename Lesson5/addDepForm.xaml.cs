@@ -23,5 +23,15 @@ namespace Lesson5
         {
             InitializeComponent();
         }
+
+        private void saveNewDep_Click(object sender, RoutedEventArgs e)
+        {
+            this.DialogResult = true;
+        }
+
+        private void cancNewDep_Click(object sender, RoutedEventArgs e)
+        {
+            this.DialogResult = false;
+        }
     }
 }

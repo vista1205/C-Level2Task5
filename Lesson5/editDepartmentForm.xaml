@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lesson5"
         mc:Ignorable="d"
-        Title="Редактирование департамента" Height="156.148" Width="311.885">
+        Title="Редактирование департамента" Height="156.148" Width="311.885" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="15*"/>

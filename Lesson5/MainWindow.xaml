@@ -34,7 +34,7 @@
         <GroupBox Header="Сотрудники" HorizontalAlignment="Left" Height="305" Margin="428,0,0,0" VerticalAlignment="Top" Width="356"/>
         <GroupBox Header="Департамент" HorizontalAlignment="Left" Height="122" Margin="433,146,0,0" VerticalAlignment="Top" Width="346"/>
         <Button x:Name="editDep" Content="Изменить" HorizontalAlignment="Left" Margin="619,222,0,0" VerticalAlignment="Top" Width="75" Click="editDep_Click"/>
-        <Button x:Name="addDep" Content="Добавить" HorizontalAlignment="Left" Margin="440,222,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="addDep" Content="Добавить" HorizontalAlignment="Left" Margin="440,222,0,0" VerticalAlignment="Top" Width="75" Click="addDep_Click"/>
 
     </Grid>
 </Window>

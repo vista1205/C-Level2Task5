@@ -91,29 +91,33 @@ namespace Lesson5
             Application.Current.Shutdown();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("Message");
-        }
-
         private void editDep_Click(object sender, RoutedEventArgs e)
         {
             if (departmentComboBox.SelectedItem != null)
             {
                 editDepartmentForm edtDep = new editDepartmentForm();
+                edtDep.oldTextBox.Text = departmentComboBox.SelectedItem.ToString();
+                var selectindex = departmentComboBox.SelectedIndex;
                 if (edtDep.ShowDialog() == true)
                 {
-                    var selectindex = departmentComboBox.SelectedIndex;
-                    var text = departmentsList[selectindex];
-                    edtDep.oldTextBox.Text = text.ToString();
-                    departmentsList.RemoveAt(selectindex);
-                    departmentsList.Insert(selectindex, new Department(edtDep.newTextBox.Text));
-
+                    var text = edtDep.newTextBox.Text;
+                    departmentsList[selectindex] = new Department(text);
                     personlistView.ItemsSource = null;
                     personlistView.ItemsSource = employees;
                     departmentComboBox.ItemsSource = null;
                     departmentComboBox.ItemsSource = departmentsList;
                 }
+            }
+        }
+
+        private void addDep_Click(object sender, RoutedEventArgs e)
+        {
+            addDepForm addDepF = new addDepForm();
+            if (addDepF.ShowDialog() == true)
+            {
+                departmentsList.Add(new Department(addDepF.newNameDepartment.Text));
+                departmentComboBox.ItemsSource = null;
+                departmentComboBox.ItemsSource = departmentsList;
             }
         }
     }
