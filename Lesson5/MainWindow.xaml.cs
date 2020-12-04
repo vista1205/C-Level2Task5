@@ -90,5 +90,31 @@ namespace Lesson5
         {
             Application.Current.Shutdown();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Message");
+        }
+
+        private void editDep_Click(object sender, RoutedEventArgs e)
+        {
+            if (departmentComboBox.SelectedItem != null)
+            {
+                editDepartmentForm edtDep = new editDepartmentForm();
+                if (edtDep.ShowDialog() == true)
+                {
+                    var selectindex = departmentComboBox.SelectedIndex;
+                    var text = departmentsList[selectindex];
+                    edtDep.oldTextBox.Text = text.ToString();
+                    departmentsList.RemoveAt(selectindex);
+                    departmentsList.Insert(selectindex, new Department(edtDep.newTextBox.Text));
+
+                    personlistView.ItemsSource = null;
+                    personlistView.ItemsSource = employees;
+                    departmentComboBox.ItemsSource = null;
+                    departmentComboBox.ItemsSource = departmentsList;
+                }
+            }
+        }
     }
 }

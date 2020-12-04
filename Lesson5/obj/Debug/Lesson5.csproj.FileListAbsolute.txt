@@ -38,3 +38,7 @@ C:\Users\kozlovvo\source\repos\C#Level2Task5\Lesson5\obj\Debug\AddEmployeeForm.g
 C:\Users\kozlovvo\source\repos\C#Level2Task5\Lesson5\obj\Debug\AddEmployeeForm.baml
 C:\Users\Family\Desktop\Учёба\GeekBrains\Основы языка C# 2 уровень\Задания\C-Level2Task5\Lesson5\obj\Debug\AddEmployeeForm.g.cs
 C:\Users\Family\Desktop\Учёба\GeekBrains\Основы языка C# 2 уровень\Задания\C-Level2Task5\Lesson5\obj\Debug\AddEmployeeForm.baml
+C:\Users\kozlovvo\source\repos\C#Level2Task5\Lesson5\obj\Debug\editDepartmentForm.g.cs
+C:\Users\kozlovvo\source\repos\C#Level2Task5\Lesson5\obj\Debug\editDepartmentForm.baml
+C:\Users\kozlovvo\source\repos\C#Level2Task5\Lesson5\obj\Debug\addDepForm.g.cs
+C:\Users\kozlovvo\source\repos\C#Level2Task5\Lesson5\obj\Debug\addDepForm.baml

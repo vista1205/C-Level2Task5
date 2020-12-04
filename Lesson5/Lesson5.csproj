@@ -55,7 +55,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="addDepForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="AddEmployeeForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="editDepartmentForm.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -63,6 +71,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="addDepForm.xaml.cs">
+      <DependentUpon>addDepForm.xaml</DependentUpon>
+    </Compile>
     <Compile Include="AddEmployeeForm.xaml.cs">
       <DependentUpon>AddEmployeeForm.xaml</DependentUpon>
     </Compile>
@@ -71,6 +82,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Department.cs" />
+    <Compile Include="editDepartmentForm.xaml.cs">
+      <DependentUpon>editDepartmentForm.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Employee.cs" />
     <Compile Include="FileDialog.cs" />
     <Compile Include="MainWindow.xaml.cs">
